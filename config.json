@@ -1,0 +1,24 @@
+{
+
+  "annotation": {
+  "article_range_to_annotate" : "[0, 2]",
+  "output_annotation_file_name": "annotated_file.csv"},
+  "N_ACTOR": 20,
+  "testing_config": {
+    "N_ACTOR": 20,
+    "MAX_SENTENCE_LENGTH": 250,
+    "save_model_path": "saved_model",
+    "save_tokenizer_path": "saved_tokenizer"
+  },
+  "training_config": {
+    "MAX_SENTENCE_LENGTH": 250,
+    "save_model_path": "save_model_1",
+    "save_tokenizer_path": "save_tokenizer_1",
+    "line_range": "[0, 1500]",
+    "article_range": "[0, 200]",
+    "N_ACTOR": 20,
+    "data_file_path": "annotated_file.csv"
+
+  }
+
+}
